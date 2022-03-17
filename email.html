@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Contact me</title>
+    <link rel="stylesheet" href="emailStyles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Connect with me</h1>
+      <p>
+        I would love to respond to your questions or make connections. <br />
+        Feel free to contact me and lets get to work!
+      </p>
+      <div class="contact-box">
+        <div class="contact-left">
+          <h3>Send your request</h3>
+          <form action="sendEmail.php" method="post">
+            <div class="input-row">
+              <div class="input-group">
+                <label for="name">Name</label>
+                <input type="text" name= "name" placeholder="Type first and last name" />
+              </div>
+              <div class="input-group">
+                <label for="mobile">Phone</label>
+                <input type="text" name = "mobile" placeholder="+1 543 329 2146" />
+              </div>
+            </div>
+            <div class="input-row">
+              <div class="input-group">
+                <label for="lname">Email</label>
+                <input type="text" name="emailaddress" placeholder="yourEmail@domain.com" />
+              </div>
+              <div class="input-group">
+                <label for="message">Subject</label>
+                <input type="text" name = "message" placeholder="Product/Job Offers" />
+              </div>
+            </div>
+
+            <label for="message">Message</label>
+            <textarea name = "message" rows="5" placeholder="Your Message"></textarea>
+
+            <button type="submit" value="Submit">Send</button>
+          </form>
+        </div>
+        <div class="contact-right">
+          <h3>Contact me</h3>
+          <table>
+            <tr>
+              <td>Email</td>
+              <td>alvaradojrrafael@gmail.com</td>
+            </tr>
+            <tr>
+              <td>Mobile Phone (txt msg)</td>
+              <td>(510) 566-4247</td>
+            </tr>
+          </table>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
