@@ -21,11 +21,11 @@
       <div class="contact-box">
         <div class="contact-left">
           <h3>Send your request</h3>
-          <form action="sendEmail.php" method="post">
+          <form action="https://formsubmit.co/alvaradojrrafael@gmail.com" method="POST">
             <div class="input-row">
               <div class="input-group">
                 <label for="name">Name</label>
-                <input type="text" name= "name" placeholder="Type first and last name" />
+                <input type="text" name= "name" placeholder="Type first and last name" required/>
               </div>
               <div class="input-group">
                 <label for="mobile">Phone</label>
@@ -35,16 +35,16 @@
             <div class="input-row">
               <div class="input-group">
                 <label for="lname">Email</label>
-                <input type="text" name="emailaddress" placeholder="yourEmail@domain.com" />
+                <input type="text" name="emailaddress" placeholder="yourEmail@domain.com" required/>
               </div>
               <div class="input-group">
                 <label for="message">Subject</label>
-                <input type="text" name = "message" placeholder="Product/Job Offers" />
+                <input type="text" name = "message" placeholder="Product/Job Offers" required/>
               </div>
             </div>
 
             <label for="message">Message</label>
-            <textarea name = "message" rows="5" placeholder="Your Message"></textarea>
+            <textarea name = "message" rows="5" placeholder="Your Message" required></textarea>
 
             <button type="submit" value="Submit">Send</button>
           </form>
