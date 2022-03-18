@@ -1,2 +1,2 @@
-# ReactProjects
-Personal website built using CSS and HTML in VS IDE...
+# HTML/CSS/Java Project
+Personal website built using HTML,CSS and Java. IDE used was VScode.
