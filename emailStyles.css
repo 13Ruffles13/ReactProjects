@@ -17,11 +17,11 @@ body{
 }
 .contact-left{
     flex-basis: 60%;
-    padding: 40px 60px;
+    padding: 5px;
 }
 .contact-right{
     flex-basis: 60%;
-    padding: 40px 60px;
+    padding: 5px;
     background: #1c00b5;
     color: #fff;
 }
@@ -84,3 +84,4 @@ tr td:first-child{
 tr td{
     padding-top: 20px;
 }
+
