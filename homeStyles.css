@@ -31,8 +31,8 @@
 }
 
 #navbar__logo {
-  background-color: #ff8177;
-  background-image: linear-gradient(to top, #ff0844 0%, #ffb199 100%);
+  background-color: #fff;
+  background-image: linear-gradient(to top, #101820ff 0%, #F2AA4CFF 100%);
   background-size: 100%;
   background-clip: text;
   -webkit-background-clip: text;
@@ -220,14 +220,14 @@
 }
 
 .main__content {
-  color: #fff;
+  color: rgb(78, 78, 78);
   width: 100%;
 }
 
 .main__content h1 {
   font-size: 4rem;
-  background-color: #ff8177;
-  background-image: linear-gradient(to top, #ff0844 0%, #ffb199 100%);
+  background-color: #fff;
+  background-image: linear-gradient(to top, #101820FF 0%, #F2AA4CFF 100%);
   background-size: 100%;
   background-clip: text;
   -webkit-background-clip: text;
@@ -239,8 +239,8 @@
 .main__content h2 {
   font-size: 4rem;
   margin-top: 10px;
-  background-color: #ff8177;
-  background-image: linear-gradient(-20deg, #b721ff 0%, #21d4fd 100%);
+  background-color: #fff;
+  background-image: linear-gradient(-20deg, #F2AA4CFF 0%, #101820FF 100%);
   background-size: 100%;
   background-clip: text;
   -webkit-background-clip: text;
@@ -257,7 +257,7 @@
 
 .main__btn {
   font-size: 1rem;
-  background-image: linear-gradient(to top, #f77062 0%, #fe5196 100%);
+  background-image: linear-gradient(to top, #F2AA4CFF 0%, #101820ff 100%);
   padding: 14px 32px;
   border: none;
   border-radius: 4px;
@@ -283,7 +283,7 @@
   left: 0;
   width: 0;
   height: 100%;
-  background: #4837ff;
+  background: rgb(211, 168, 112);
   transition: all 0.35s;
   border-radius: 4px;
 }
@@ -369,15 +369,15 @@
 }
 
 .services h1 {
-  background-color: #ff8177;
+  background-color: #fff;
   background-image: linear-gradient(
     to right,
-    #ff8177 0%,
-    #ff867a 0%,
-    #ff8c7f 21%,
-    #f99185 52%,
-    #cf556c 78%,
-    #b12a5b 100%
+    #F2AA4CFF 0%,
+    rgb(231, 162, 71) 0%,
+    rgb(175, 131, 74) 21%,
+    rgb(163, 119, 60) 52%,
+    rgb(180, 136, 78) 78%,
+    rgb(99, 78, 51) 100%
   );
   background-size: 100%;
   background-clip: text;
@@ -443,7 +443,7 @@
   border: none;
   outline: none;
   border-radius: 4px;
-  background: #f77062;
+  background: #F2AA4CFF;
   position: absolute;
   top: 440px;
   left: 30px;
