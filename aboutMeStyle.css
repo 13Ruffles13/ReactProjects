@@ -183,3 +183,25 @@ body{
     right: -50px
   }
 }
+
+@media screen and (max-width: 768px) {
+  .about-para p {
+    text-align: center;
+    align-items: center;
+    justify-self: center;
+    width: 100%;
+    margin: 0 auto;
+    font-size: 2.6vw;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .about-para p {
+    text-align: center;
+    align-items: center;
+    justify-self: center;
+    width: 100%;
+    margin: 0 auto;
+    font-size: 2.6vw;
+  }
+}
