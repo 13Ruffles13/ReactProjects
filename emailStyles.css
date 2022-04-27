@@ -90,61 +90,20 @@ tr td{
 }
 /* Mobile responsive */
 @media screen and (max-width: 768px) {
-    .contact-left {
-      display: grid;
-      grid-template-columns: auto;
-      align-items: center;
-      justify-self: center;
-      width: 100%;
-      margin: 0 auto;
-
+    .contact-left{
+        text-align: flex;
+        font-size: 10px;
     }
-    .contact-right td{
-        display: grid;
-        grid-template-columns: auto;
-        align-items: center;
-        justify-self: center;
-        width: 100%;
-        margin: 0 auto;
-
-      }
-    .input-row{
-        display: grid;
-        grid-template-columns: auto;
-        align-items: center;
-        justify-content: center;
-        width: 100%;
-        margin: 0 auto;
-        height: auto;
+    .contact-right{
+        text-align: flex;
+        font-size: 10px;
     }
-  }
+    td{
+        text-align: flex;
+        font-size: 10px;
+    }
+}
   
 @media screen and (max-width: 480px) {
-    .contact-left {
-        display: grid;
-        grid-template-columns: auto;
-        align-items: center;
-        justify-self: center;
-        width: 100%;
-        margin: 0 auto;
-  
-      }
-      .contact-right td{
-          display: grid;
-          grid-template-columns: auto;
-          align-items: center;
-          justify-self: center;
-          width: 100%;
-          margin: 0 auto;
-  
-        }
-      .input-row{
-          display: grid;
-          grid-template-columns: auto;
-          align-items: center;
-          justify-content: center;
-          width: 100%;
-          margin: 0 auto;
-          height: auto;
-      }
+    
   }
