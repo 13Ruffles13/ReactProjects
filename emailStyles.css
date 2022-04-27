@@ -7,13 +7,13 @@ body{
     font-size: 14px;
     font-family: 'Poppins', sans-serif;
 }
-.container{
+/* .container{
     width: 80%;
     margin: 50px auto;
-}
+} */
 .contact-box{
     background: #fff;
-    display: flex;
+    /* display: flex; */
 }
 .contact-left{
     flex-basis: 60%;
@@ -25,16 +25,16 @@ body{
     background: #F2AA4CFF;
     color: #101820ff;
 }
-h1{
+/* h1{
     margin-bottom: 10px;
     color: #fff;
-}
+} */
 p{
     color: #fff;
 }
-.container p{
+/* .container p{
     margin-bottom: 40px;
-}
+} */
 .input-row{
     display: flex;
     justify-content: space-between;
@@ -76,11 +76,11 @@ button{
 .contact-left h3{
     color: #101820ff;
     font-weight: 600;
-    margin-bottom: 30px;
+    /* margin-bottom: 30px; */
 }
 .contact-right h3{
     font-weight: 600;
-    margin-bottom: 30px;
+    /* margin-bottom: 30px; */
 }
 tr td:first-child{
     padding-right: 20px;
@@ -89,7 +89,7 @@ tr td{
     padding-top: 20px;
 }
 
-@media screen and (max-width: 768px) {
+/* @media screen and (max-width: 768px) {
     .contact-left h3{
         text-align: start;
         font-size: 1rem;
@@ -105,22 +105,29 @@ tr td{
         text-align: flex;
         font-size: 10px;
     }
-}
+} */
 
 /* Mobile responsive */
 @media screen and (max-width: 480px) {
-    .contact-left h3{
-        text-align: start;
+    h1{
+        margin-top: 2rem;
+        color: #fff;
+        align-items: center;
         font-size: 1rem;
     }
-    .contact-left form{
-        width: auto;
-        margin: auto;
-        justify-content: auto;
-        font-size: 0.5rem;
+    .container .text-start{
+        font-size: 0.6rem;
     }
+
+    .container .contact-box{
+        font-size: 0.7rem;
+    }
+
+    .contact-left h3{
+        font-size: 1rem;
+    }
+
     .contact-right h3{
-        text-align: start;
         font-size: 1rem;
     }
 }
