@@ -170,6 +170,7 @@ body{
   padding: 0.5rem;
   opacity: 0.8;
 }
+
 @media screen and (min-width: 992px){
   .about-wrapper{
     display: grid;
@@ -192,13 +193,11 @@ body{
   }
 }
 
-/* @media screen and (max-width: 480px) {
+/*Mobile user's */
+@media screen and (max-width: 480px) {
   .about-para p {
-    text-align: center;
-    align-items: center;
-    justify-self: center;
-    width: 100%;
-    margin: 0 auto;
-    font-size: 2.6vw;
+    font-size: 12.0px;
+    text-align: flex;
+    justify-content: center;
   }
-}*/
+}

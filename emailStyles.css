@@ -88,7 +88,7 @@ tr td:first-child{
 tr td{
     padding-top: 20px;
 }
-/* Mobile responsive */
+
 @media screen and (max-width: 768px) {
     .contact-left .input-row{
         text-align: flex;
@@ -103,7 +103,22 @@ tr td{
         font-size: 10px;
     }
 }
-  
-/* @media screen and (max-width: 480px) {
-    
-  } */
+
+/* Mobile responsive */
+@media screen and (max-width: 480px) {
+    .contact-left .input-row{
+        text-align: flex;
+        font-size: auto;
+        justify-content: auto;
+    }
+    .contact-right .input-row{
+        text-align: flex;
+        font-size: auto;
+        justify-content: auto;
+    }
+    td{
+        text-align: flex;
+        font-size: auto;
+        justify-content: auto;
+    }
+}
