@@ -90,11 +90,11 @@ tr td{
 }
 /* Mobile responsive */
 @media screen and (max-width: 768px) {
-    .contact-left{
+    .contact-left .input-row{
         text-align: flex;
         font-size: 10px;
     }
-    .contact-right{
+    .contact-right .input-row{
         text-align: flex;
         font-size: 10px;
     }
@@ -104,6 +104,6 @@ tr td{
     }
 }
   
-@media screen and (max-width: 480px) {
+/* @media screen and (max-width: 480px) {
     
-  }
+  } */

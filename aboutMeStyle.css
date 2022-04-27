@@ -184,18 +184,15 @@ body{
   }
 }
 
-/* @media screen and (max-width: 768px) {
+@media screen and (max-width: 768px) {
   .about-para p {
-    text-align: center;
-    align-items: center;
-    justify-self: center;
-    width: 100%;
-    margin: 0 auto;
-    font-size: 2.6vw;
+    font-size: 13.0px;
+    text-align: flex;
+    justify-content: center;
   }
 }
 
-@media screen and (max-width: 480px) {
+/* @media screen and (max-width: 480px) {
   .about-para p {
     text-align: center;
     align-items: center;
@@ -204,4 +201,4 @@ body{
     margin: 0 auto;
     font-size: 2.6vw;
   }
-} */
+}*/
