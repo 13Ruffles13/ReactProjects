@@ -90,13 +90,16 @@ tr td{
 }
 
 @media screen and (max-width: 768px) {
-    .contact-left .input-row{
-        text-align: flex;
+    .contact-left h3{
+        text-align: start;
+        font-size: 1rem;
+    }
+    .contact-left form{
         font-size: 10px;
     }
-    .contact-right .input-row{
-        text-align: flex;
-        font-size: 10px;
+    .contact-right h3{
+        text-align: start;
+        font-size: 1rem;
     }
     td{
         text-align: flex;
@@ -106,19 +109,18 @@ tr td{
 
 /* Mobile responsive */
 @media screen and (max-width: 480px) {
-    .contact-left .input-row{
-        text-align: flex;
-        font-size: auto;
-        justify-content: auto;
+    .contact-left h3{
+        text-align: start;
+        font-size: 1rem;
     }
-    .contact-right .input-row{
-        text-align: flex;
-        font-size: auto;
+    .contact-left form{
+        width: auto;
+        margin: auto;
         justify-content: auto;
+        font-size: 0.5rem;
     }
-    td{
-        text-align: flex;
-        font-size: auto;
-        justify-content: auto;
+    .contact-right h3{
+        text-align: start;
+        font-size: 1rem;
     }
 }
