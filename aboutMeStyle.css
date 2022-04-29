@@ -189,7 +189,7 @@ body{
 /*Mobile user's */
 @media screen and (max-width: 480px) {
   .about-para p {
-    font-size: .6rem;
+    font-size: .7rem;
     text-align: flex;
     justify-content: center;
   }
@@ -211,17 +211,17 @@ body{
     justify-content: center;
   }
   .about-right h1{
-    font-size: 6rem;
+    font-size: 8rem;
   }
   .about-right h2{
-    font-size: .8rem;
+    font-size: 1.5rem;
     text-align: center;
   }
   .btn.btn-blue{
-    font-size: .5rem;
+    font-size: .8rem;
   }
   .btn.btn-white{
-    font-size: .5rem;
+    font-size: .8rem;
   }
 
 
