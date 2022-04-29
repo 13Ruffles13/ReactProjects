@@ -189,7 +189,7 @@ body{
 /*Mobile user's */
 @media screen and (max-width: 480px) {
   .about-para p {
-    font-size: 0.475rem;
+    font-size: .6rem;
     text-align: flex;
     justify-content: center;
   }
@@ -200,10 +200,10 @@ body{
     position: relative;
     transform: inherit;
   }
-  .about-left-content{
+  /* .about-left-content{
     position: absolute;
     right: -50px;
-  }
+  } */
   .about-left-content h3{
     font-size: 1rem;
   }
