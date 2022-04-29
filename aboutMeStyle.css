@@ -200,10 +200,10 @@ body{
     position: relative;
     transform: inherit;
   }
-  /* .about-left-content{
+  .about-left-content{
     position: absolute;
-    right: -50px;
-  } */
+    right: auto;
+  }
   .about-left-content h3{
     font-size: 1rem;
   }
