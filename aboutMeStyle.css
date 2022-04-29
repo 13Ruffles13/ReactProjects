@@ -185,19 +185,44 @@ body{
   }
 }
 
-@media screen and (max-width: 768px) {
-  .about-para p {
-    font-size: 13.0px;
-    text-align: flex;
-    justify-content: center;
-  }
-}
 
 /*Mobile user's */
 @media screen and (max-width: 480px) {
   .about-para p {
-    font-size: 12.0px;
+    font-size: 0.475rem;
     text-align: flex;
     justify-content: center;
   }
+  .about-wrapper{
+    background-color: inherit;
+  }
+  .about-left{
+    position: relative;
+    transform: inherit;
+  }
+  .about-left-content{
+    position: absolute;
+    right: -50px;
+  }
+  .about-left-content h3{
+    font-size: 1rem;
+  }
+  .about-right{
+    justify-content: center;
+  }
+  .about-right h1{
+    font-size: 6rem;
+  }
+  .about-right h2{
+    font-size: .8rem;
+    text-align: center;
+  }
+  .btn.btn-blue{
+    font-size: .5rem;
+  }
+  .btn.btn-white{
+    font-size: .5rem;
+  }
+
+
 }
